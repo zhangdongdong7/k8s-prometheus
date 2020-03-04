@@ -10,15 +10,15 @@ data:
   alertmanager.yml: |
     global: 
       resolve_timeout: 5m
-      smtp_smarthost: 'mail.goldwind.com.cn:587'
-      smtp_from: 'goldwindscada@goldwind.com.cn'
-      smtp_auth_username: 'goldwindscada@goldwind.com.cn'
-      smtp_auth_password: 'Dbadmin@123'
+      smtp_smarthost: 'xxx'
+      smtp_from: 'xxxx'
+      smtp_auth_username: 'xxxx'
+      smtp_auth_password: 'xxx'
 
     receivers:
     - name: default-receiver
       email_configs:
-      - to: "zhangdongdong27459@goldwind.com.cn"
+      - to: "xxxxxn"
 
     route:
       group_interval: 1m
